@@ -1,0 +1,217 @@
+// Main Sass File
+$main-color: #f0f;
+$background-color: rgb(245, 240, 240);
+
+
+html, body {
+  font-family: "K2D", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  background: $background-color;
+  // color: #333;
+  // margin: 0;
+  // padding: 0;
+}
+
+.navbar {
+  background: $main-color !important;
+
+  .navbar-brand {
+    // font-family: "K2D", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  li > a {
+    color: #fff !important;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+  }
+
+  .nav-link {
+        // font-family: "K2D", sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+      }
+
+      .navbar-collapse {
+            text-align: center !important;
+          }
+    
+}
+
+
+// header{
+//   background-size: cover;
+//   width: 100%;
+// }
+
+
+#home-section {
+  position: relative;
+  // z-index: 1;
+  height: 100vh;
+  // min-width: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+  .container-fluid{
+    width: 100%;
+  }
+
+
+  .carousel-inner > .carousel-item {
+    height: 100vh; 
+    width: 100%;
+    
+  }
+
+  .carousel-caption {
+    padding-bottom: 30px;
+  }
+
+  h3 {
+    // background: #060606;
+    // border: 1px solid #060606;
+    // border-radius: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .btn {
+    // margin-bottom: 30px;
+    background-color: $main-color !important;
+    border-color: #fff !important;
+    // padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: darken($color: $main-color, $amount: 10%) !important;
+    border-color: darken($color: $main-color, $amount: 10%) !important;
+  }
+
+
+}
+
+#main{
+  width: 100%;
+
+  .container{
+    margin-top: 4rem;
+    margin-bottom: 4rem !important;
+    
+  }
+
+ 
+
+}
+
+  .lead{
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  hr{
+    width: 20%;
+    background-color: darken($color: $main-color, $amount: 10%) !important;
+  }
+
+  
+
+    .btn {
+      // margin-bottom: 30px;
+      background-color: #333 !important;
+      border-color: #333 !important;
+      // padding: 10px;
+      padding-left: 22px;
+      padding-right: 22px;
+      margin-left: 2rem;
+      // margin-right: 25rem;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: darken($color: $main-color, $amount: 10%) !important;
+      border-color: darken($color: $main-color, $amount: 10%) !important;
+    }
+
+    .sum-text {
+      font-size: 20px;
+    }
+
+
+    section{
+      background-color: rgb(192, 187, 188);
+      
+
+      hr{
+        width: 15%;
+        text-align: center;
+      }
+
+      .head-desc{
+        font-size: 25px;
+        font-weight: inherit;
+      }
+
+      .img-desc{
+        font-size: 20px;
+      }
+
+    }
+
+    #services-sec{
+      background-color: #fff;
+      
+    
+    }
+
+    
+  
+
+    
+
+  
+
+  
+
+
+
+// @media (max-width:991px) {
+//   .carousel{
+//     height: 100vh;
+//     width: 100%;
+//   }
+  
+//     .carousel-inner > .carousel-item {
+//       height: 100vh;
+//       width: 100%;
+//       // padding-top: 10px;
+//       // margin-top: 70px;
+//     }
+// //   .carousel .background {
+// //     background-size: cover; /* To make the background image looks good */
+// //   }
+// }
+

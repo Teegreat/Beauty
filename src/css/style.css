@@ -1,0 +1,101 @@
+html, body {
+  font-family: "K2D", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #f5f0f0; }
+
+.navbar {
+  background: #f0f !important; }
+  .navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 35px; }
+  .navbar li > a {
+    color: #fff !important;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .navbar .nav-link {
+    font-size: 20px;
+    font-weight: 200; }
+  .navbar .navbar-collapse {
+    text-align: center !important; }
+
+#home-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .container-fluid {
+    width: 100%; }
+  #home-section .carousel-inner > .carousel-item {
+    height: 100vh;
+    width: 100%; }
+  #home-section .carousel-caption {
+    padding-bottom: 30px; }
+  #home-section h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+    display: inline-block; }
+  #home-section p {
+    font-size: 30px; }
+  #home-section .btn {
+    background-color: #f0f !important;
+    border-color: #fff !important;
+    font-size: 20px;
+    cursor: pointer; }
+  #home-section .btn:hover {
+    background: #cc00cc !important;
+    border-color: #cc00cc !important; }
+
+#main {
+  width: 100%; }
+  #main .container {
+    margin-top: 4rem;
+    margin-bottom: 4rem !important; }
+
+.lead {
+  font-size: 2.2rem;
+  text-align: center; }
+
+hr {
+  width: 20%;
+  background-color: #cc00cc !important; }
+
+.btn {
+  background-color: #333 !important;
+  border-color: #333 !important;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left: 2rem;
+  font-size: 20px;
+  cursor: pointer; }
+
+.btn:hover {
+  background: #cc00cc !important;
+  border-color: #cc00cc !important; }
+
+.sum-text {
+  font-size: 20px; }
+
+section {
+  background-color: #c0bbbc; }
+  section hr {
+    width: 15%;
+    text-align: center; }
+  section .head-desc {
+    font-size: 25px;
+    font-weight: inherit; }
+  section .img-desc {
+    font-size: 20px; }
+
+#services-sec {
+  background-color: fff;
+  margin-top: 5px; }
